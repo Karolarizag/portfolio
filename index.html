@@ -5,14 +5,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css2?family=Lato&family=Staatliches&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
   <link rel="stylesheet" href="style.css">
 
-  <title>Karol Ariza</title>
+  <title>Karol Ariza's portfolio</title>
 </head>
 
 <body>
   
-  <header class="sticky top-0">
+  <header class="sticky -top-1">
     <div class="px-10 py-3 md:flex lg:flex justify-between bg-black">
       
       <div>
@@ -28,13 +29,13 @@
         <a href="#technologies" class="header-btn">
           Technologies
         </a>
-        <a class="header-btn">
+        <a href="#projects" class="header-btn">
           Projects
         </a>
-        <a class="header-btn">
+        <a href="contact" class="header-btn">
           Contact
         </a>
-        <a class="header-btn">
+        <a href="features" class="header-btn">
           Features
         </a>
       </div>
@@ -46,7 +47,7 @@
     <div class="md:h-20"></div>
 
     <div id="aboutme" class="w-screen md:flex flex-row items-center mb-8">
-      <div class="sm:w-full md:w-1/2 flex justify-center basis-2/3" style="margin-bottom: 20px;">
+      <div class="flex justify-center basis-2/3" style="margin-bottom: 20px;">
 
         <div class="mx-4 md:w-2/3">
           <h1 class="title-section">ABOUT ME</h1>
@@ -56,31 +57,86 @@
 
       </div>
 
-      <div class="sm:w-full md:w-1/4 basis-1/3 flex justify-end">
+      <div class="basis-1/3 flex justify-end">
         <img src="/assets//draw.png" style="max-width: 90%;">
       </div>
 
     </div>
 
-    <!-- <div class="md:h-20"></div> -->
 
-    <div id="technologies" class="bg-lila p-8 mt-8">
+    <div id="technologies" class="bg-lila p-8 mt-8 mb-8">
       <div class="title-section flex justify-center">My Technologies</div>
-      <div class="img-container">
-        <img src="/assets/technologies/js.png" alt="javascript" class="t-img">
-        <img src="/assets/technologies/html.png" alt="html" class="t-img">
-        <img src="/assets/technologies/css.png" alt="css" class="t-img">
-        <img src="/assets/technologies/node.png" alt="nodejs" class="t-img">
-        <img src="/assets/technologies/mongodb.png" alt="mondo" class="t-img">
-        <img src="/assets/technologies/vue.png" alt="vue" class="t-img">
-        <img src="/assets/technologies/nuxt.png" alt="nuxt" class="t-img">
-        <img src="/assets/technologies/vuetify.png" alt="vuetify" class="t-img">
-        <img src="/assets/technologies/bootstrap.png" alt="bootstrap" class="t-img">
-        <img src="/assets/technologies/tailwind.png" alt="tailwind" class="t-img">
-        <img src="/assets/technologies/npm.png" alt="npm" class="t-img">
-        <img src="/assets/technologies/git.png" alt="git" class="t-img">
-        <img src="/assets/technologies/figma.png" alt="figma" class="t-img">
+      <div class="flex flex-wrap justify-around">
+        <img src="/assets/technologies/js.png" alt="javascript" class="technology-img">
+        <img src="/assets/technologies/html.png" alt="html" class="technology-img">
+        <img src="/assets/technologies/css.png" alt="css" class="technology-img">
+        <img src="/assets/technologies/node.png" alt="nodejs" class="technology-img">
+        <img src="/assets/technologies/mongodb.png" alt="mondo" class="technology-img">
+        <img src="/assets/technologies/vue.png" alt="vue" class="technology-img">
+        <img src="/assets/technologies/nuxt.png" alt="nuxt" class="technology-img">
+        <img src="/assets/technologies/vuetify.png" alt="vuetify" class="technology-img">
+        <img src="/assets/technologies/bootstrap.png" alt="bootstrap" class="technology-img">
+        <img src="/assets/technologies/tailwind.png" alt="tailwind" class="technology-img">
+        <img src="/assets/technologies/npm.png" alt="npm" class="technology-img">
+        <img src="/assets/technologies/git.png" alt="git" class="technology-img">
+        <img src="/assets/technologies/figma.png" alt="figma" class="technology-img">
       </div>
+    </div>
+
+    <div id="projects" class="w-screen lg:flex flex-row items-center mb-8 p-8 mt-8">
+      
+      <div class="basis-1/3 flex justify-center mb-8">
+        <img src="/assets/draw2.png" alt="draw2">
+      </div>
+      
+      <div class="basis-2/3">
+        <div class="title-section flex justify-center">PROJECTS</div>
+        <div class="flex flex-wrap justify-center">
+
+          <div class="project-container">
+            <div class="project-title">Mapache's Memory</div>
+            <div>
+              <a href="https://arixka.github.io/Mapache-s-Memory-Games/" target="_blank" rel="noopener noreferrer">
+                <img src="/assets/projects/mapachesmemory.png" alt="mapachesmemory" class="project-img">
+              </a>
+            </div>
+            <div class="flex">
+              <img src="/assets/github.png" alt="github" class="max-h-5 mx-5 mt-4">
+              <a href="https://github.com/Karolarizag/Mapache-s-Memory-Games" target="_blank" rel="noopener noreferrer" class="project-description">GitHub repository</a>
+            </div>
+          </div>
+
+          <div class="project-container">
+            <div class="project-title">Dikram</div>
+            <div >
+              <a href="http://dikram.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                <img src="/assets/projects/dikram.png" alt="dikram " class="project-img">
+              </a>
+            </div>
+            <div class="flex">
+              <img src="/assets/github.png" alt="github" class="max-h-5 mx-5 mt-4">
+              <a href="https://github.com/Karolarizag/DikramFrontNuxt/tree/master/frontNuxt" target="_blank" rel="noopener noreferrer"
+                class="project-description">GitHub repository</a>
+            </div>
+          </div>
+
+          <div class="project-container">
+            <div class="project-title">Bloggie</div>
+            <div>
+              <a href="https://github.com/Karolarizag/Bloggie" target="_blank">
+                <img src="/assets/projects/bloggie.png" alt="bloggie" class="project-img">
+              </a>
+            </div>
+            <div class="flex">
+              <img src="/assets/github.png" alt="github" class="max-h-5 mx-5 mt-4">
+              <a href="https://github.com/Karolarizag/Bloggie" target="_blank"
+                rel="noopener noreferrer" class="project-description">GitHub repository</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
     </div>
 
   </section>

@@ -12,11 +12,23 @@
     @apply font-title text-5xl text-white
   }
 
-  .img-container {
-    @apply flex flex-wrap justify-around
+  .technology-img {
+    @apply max-h-24 mx-10 my-8
   }
 
-  .t-img {
-    @apply max-h-24 mx-10 my-8
+  .project-container {
+    @apply mx-4 my-5 
+  }
+
+  .project-title {
+    @apply font-title text-2xl text-white flex justify-center mb-3
+  }
+
+  .project-description {
+    @apply font-parragraph text-white text-lg mt-2
+  }
+
+  .project-img {
+    @apply max-h-64
   }
 }
