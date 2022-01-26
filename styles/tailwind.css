@@ -5,7 +5,18 @@
 @layer components {
 
   .header-btn {
-    @apply font-title text-lila hover:text-orange cursor-pointer
+    @apply font-title text-lila hover:text-orange cursor-pointer mx-4 md:mx-0
   }
 
+  .title-section {
+    @apply font-title text-5xl text-white
+  }
+
+  .img-container {
+    @apply flex flex-wrap justify-around
+  }
+
+  .t-img {
+    @apply max-h-24 mx-10 my-8
+  }
 }
