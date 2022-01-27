@@ -3,7 +3,7 @@ module.exports = {
   theme: {
     fontFamily: {
       title: 'Staatliches, cursive',
-      parragraph: 'Lato, sans-serif'
+      parragraph: 'Outfit, sans-serif'
     },
     colors: {
       transparent: "transparent",
@@ -12,7 +12,7 @@ module.exports = {
       yellow: "#F5E828",
       "light-yellow": "#EBE87B",
       orange: "#FF9921",
-      "light-orange": "#EBDCA2",
+      "light-orange": "#EBAB51",
       lila: "#C790FF",
       purple: "#8733F5",
       error: "#ef4444",

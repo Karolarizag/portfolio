@@ -13,7 +13,7 @@
   }
 
   .technology-img {
-    @apply max-h-24 mx-10 my-8
+    @apply max-h-24 mx-10 my-8 transition duration-150 ease-in-out
   }
 
   .project-container {
