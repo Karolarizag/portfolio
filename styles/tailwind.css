@@ -9,11 +9,11 @@
   }
 
   .title-section {
-    @apply font-title text-5xl text-white
+    @apply font-title text-5xl text-white transition ease-in-out duration-500
   }
 
   .technology-img {
-    @apply max-h-24 mx-10 my-8 transition duration-150 ease-in-out
+    @apply max-h-24 mx-10 my-8 transition duration-150 ease-in-out hover:animate-spin
   }
 
   .project-container {
