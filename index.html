@@ -13,11 +13,11 @@
 
 <body>
   
-  <header class="sticky -top-1">
-    <div class="px-10 py-3 md:flex lg:flex justify-between bg-black">
+  <header class="sticky -top-1 bg-light-blue z-10">
+    <div class="px-10 py-3 md:flex lg:flex justify-between">
       
       <div>
-        <div class="font-title md:text-left text-lila text-xl text-center hover:text-orange cursor-pointer tracking-wider basis-2/3">
+        <div class="font-title md:text-left text-xl text-center text-brown hover:text-blue cursor-pointer tracking-wider basis-2/3">
           Hello! I'm Karol Ariza
         </div>
       </div>
@@ -39,21 +39,22 @@
       
     </div>
   </header>
-  <section class="min-h-screen bg-black" style="overflow: hidden;">
+ 
+  <section class="min-h-screen bg-light-blue" style="overflow: hidden;">
 
     <div id="aboutme" class="w-screen lg:flex flex-row items-center mt-16">
       <div class="flex justify-center basis-2/3">
 
         <div class="mx-4 md:w-2/3">
-          <h1 class="title-section hover:text-orange">ABOUT ME</h1>
-          <p class="font-parragraph sm:text-lg md:text-xl text-white tracking-wide my-3">
+          <div class="title-section text-brown hover:text-blue"> ABOUT ME</div>
+          <p class="font-parragraph sm:text-lg md:text-xl tracking-wide my-3">
             I'm Karol Ariza, a Full Stack developer living in Canary islands.
           </p>
-          <p class="font-parragraph sm:text-lg md:text-xl text-white tracking-wide my-3">
+          <p class="font-parragraph sm:text-lg md:text-xl tracking-wide my-3">
             Love to travel, playing videogames, read, go to the beach, cook, watching movies, meditation and basically everything
             that keeps my mind busy and this is why I am deeply in love with develop... well, it's a love and hate relationship but
             we are working in it! 😆 </p> 
-          <p class="font-parragraph sm:text-lg md:text-xl tracking-wide text-white"> 
+          <p class="font-parragraph sm:text-lg md:text-xl tracking-wide"> 
             Sometime ago I heard someone saying that if you find a job that you can really enjoy, then you will never have to work. And in my long or short travel for the life, I can say that finally I'm where I'm supossed to. 
           </p>
         </div>
@@ -67,8 +68,8 @@
     </div>
 
 
-    <div id="technologies" class="bg-lila p-8 mb-8">
-      <div class="title-section flex justify-center hover:text-black">My Technologies</div>
+    <div id="technologies" class="bg-light-brown p-8 mb-8">
+      <div class="title-section flex justify-center text-blue hover:text-brown">My Technologies</div>
       <div class="flex flex-wrap justify-around">
         <img src="/assets/technologies/js.png" alt="javascript" class="technology-img">
         <img src="/assets/technologies/html.png" alt="html" class="technology-img">
@@ -89,12 +90,12 @@
 
     <div id="projects" class="w-screen lg:flex flex-row items-center mb-8 p-8 mt-8">
       
-      <div class="basis-1/3 flex justify-end mb-8">
+      <div class="basis-1/3 flex md:justify-center lg:justify-end mb-8 align-center">
         <img src="/assets/projects.PNG" alt="draw2">
       </div>
       
       <div class="basis-2/3">
-        <div class="title-section flex justify-center hover:text-light-orange">PROJECTS</div>
+        <div class="title-section flex justify-center text-brown hover:text-blue">PROJECTS</div>
         <div class="flex flex-wrap justify-center">
 
           <div class="project-container">
@@ -105,7 +106,7 @@
               </a>
             </div>
             <div class="flex">
-              <img src="/assets/github.png" alt="github" class="max-h-5 mx-5 mt-4">
+              <img src="/assets/github.png" alt="github" class="max-h-5 mx-5 mt-4 invert">
               <a href="https://github.com/Karolarizag/Mapache-s-Memory-Games" target="_blank" rel="noopener noreferrer" class="project-description">GitHub repository</a>
             </div>
           </div>
@@ -118,8 +119,20 @@
               </a>
             </div>
             <div class="flex">
-              <img src="/assets/github.png" alt="github" class="max-h-5 mx-5 mt-4">
+              <img src="/assets/github.png" alt="github" class="max-h-5 mx-5 mt-4 invert">
               <a href="https://github.com/Karolarizag/DikramFrontNuxt/tree/master/frontNuxt" target="_blank" rel="noopener noreferrer"
+                class="project-description">GitHub repository</a>
+            </div>
+          </div>
+
+            <div class="project-container">
+            <div class="project-title">Portfolio</div>
+            <div >
+              <img src="/assets/projects/portfolio.png" alt="portfolio " class="project-img">
+            </div>
+            <div class="flex">
+              <img src="/assets/github.png" alt="github" class="max-h-5 mx-5 mt-4 invert">
+              <a href="https://github.com/Karolarizag/portfolio" target="_blank" rel="noopener noreferrer"
                 class="project-description">GitHub repository</a>
             </div>
           </div>
@@ -143,8 +156,8 @@
 
     </div>
 
-    <div id="contact" class="w-screen mb-8 md:p-8 py-8 bg-light-yellow">
-      <div class="title-section flex justify-center hover:text-black">Contact Me</div>
+    <div id="contact" class="w-screen mb-8 md:p-8 py-8 bg-light-brown">
+      <div class="title-section flex justify-center text-blue hover:text-brown">Contact Me</div>
       <div class="w-screen md:flex flex-row items-center justify-center">
         <div class="flex flex-wrap justify-center items-center">
           <a href="mailto:karolarizadev@gmail.com" target="_blank" rel="noopener noreferrer">
@@ -164,7 +177,7 @@
     </div>
     
     <footer>
-      <div class="font-parragraph sm:text-md md:text-lg text-white tracking-wide my-3 flex justify-center mb-8">Handcrafted with 🤍 by Karol Ariza</div>
+      <div class="font-parragraph sm:text-md md:text-lg text-lila tracking-wide my-3 flex justify-center mb-8">Handcrafted with 💙 by Karol Ariza</div>
     </footer>
   </section>
 </body>

@@ -5,15 +5,15 @@
 @layer components {
 
   .header-btn {
-    @apply font-title text-lila hover:text-orange cursor-pointer mx-4 md:mx-0
+    @apply font-title text-brown hover:text-blue cursor-pointer mx-4 md:mx-0
   }
 
   .title-section {
-    @apply font-title text-5xl text-white transition ease-in-out duration-500
+    @apply font-title text-5xl transition ease-in-out duration-500
   }
 
   .technology-img {
-    @apply max-h-24 mx-10 my-8 transition duration-150 ease-in-out hover:animate-spin
+    @apply max-h-24 mx-10 my-8 transition duration-200 grayscale hover:grayscale-0 z-0
   }
 
   .project-container {
@@ -21,11 +21,11 @@
   }
 
   .project-title {
-    @apply font-title text-2xl text-white flex justify-center mb-3
+    @apply font-title text-2xl text-medium-blue flex justify-center mb-3 text-light-brown
   }
 
   .project-description {
-    @apply font-parragraph text-white text-lg mt-2
+    @apply font-parragraph text-lg mt-2
   }
 
   .project-img {
